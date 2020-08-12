@@ -3,6 +3,7 @@ const api = require('./api')
 const app = require('./app')
 
 describe('data', () => {
+  console.log(data,"2312312321!!")
   test('users',  () => {
     expect(data.users).toHaveLength(1)
   })
